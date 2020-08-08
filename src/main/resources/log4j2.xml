@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="WARN" monitorInterval="30">
+    <Properties>
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${hostName} --- [%15.15t] %-40.40c{1.} : %m%n%ex
+        </Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}" />
+        </Console>
+
+        <File name="FileAppender" fileName="logs/log4j2-easynote.log">
+            <PatternLayout>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+        </File>
+
+        <RollingFile name="RollingAppender" fileName="logs/log4j2-easynote_rolling.log"
+                     filePattern="logs/archive/log4j2-easynote.log-%d{yyyy-MM-dd}-%i.gz">
+            <PatternLayout>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB" />
+                <TimeBasedTriggeringPolicy interval="1" />
+            </Policies>
+            <DefaultRolloverStrategy max="10" />
+        </RollingFile>
+
+        <SMTP name="MailAppender"
+              subject="Log4j2 Easynote [PROD]"
+              to="head1ton@dhgsourcing.com"
+              from="log4j2-easynote-alert@gmail.com"
+              smtpHost="smtp.gmail.com"
+              smtpPort="587"
+              smtpUsername="head1ton"
+              smtpPassword="!@#$Oracle001"
+              bufferSize="1">
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY" />
+            <PatternLayout>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+        </SMTP>
+
+    </Appenders>
+
+    <Loggers>
+        <AsyncLogger name="com.youwiz.easynotes" level="debug" additivity="false">
+            <AppenderRef ref="ConsoleAppender" />
+            <AppenderRef ref="FileAppender" />
+            <AppenderRef ref="RollingAppender" />
+        </AsyncLogger>
+
+        <Root level="info">
+            <AppenderRef ref="ConsoleAppender" />
+            <AppenderRef ref="FileAppender" />
+            <AppenderRef ref="RollingAppender" />
+        </Root>
+    </Loggers>
+</Configuration>
+<!-- 모든 Logger 를 비동기로 만든다면
+런타임 시 시스템 속성을 추가하는 방버
+mvn spring-boot:run -DLog4jContextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector
+
+packing 시
+mvn clean package
+java -jar target/easy-notes-0.0.1-SNAPSHOT.jar -DLog4jContextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector
+-->

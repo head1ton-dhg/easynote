@@ -1,0 +1,118 @@
+2020-08-09 00:00:23.327  INFO vengines-MacBook-Pro.local --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 00:00:23.339  INFO vengines-MacBook-Pro.local --- [extShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-09 00:00:23.340  INFO vengines-MacBook-Pro.local --- [extShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-08-09 00:00:23.347  INFO vengines-MacBook-Pro.local --- [extShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-08-09 00:02:05.860  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Starting EasyNotesApplication on vengines-MacBook-Pro.local with PID 4054 (/Users/vengine/Documents/workspace/easy-notes/build/classes/java/main started by vengine in /Users/vengine/Documents/workspace/easy-notes)
+2020-08-09 00:02:05.865 DEBUG vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-09 00:02:05.866  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : No active profile set, falling back to default profiles: default
+2020-08-09 00:02:05.901  INFO vengines-MacBook-Pro.local --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-09 00:02:05.903  INFO vengines-MacBook-Pro.local --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-09 00:02:06.250  INFO vengines-MacBook-Pro.local --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-09 00:02:06.279  INFO vengines-MacBook-Pro.local --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 1 JPA repository interfaces.
+2020-08-09 00:02:06.625  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-08-09 00:02:06.631  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-09 00:02:06.631  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-08-09 00:02:06.632  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-09 00:02:06.675  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-08-09 00:02:06.675  INFO vengines-MacBook-Pro.local --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 772 ms
+2020-08-09 00:02:06.742  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-09 00:02:06.758  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-09 00:02:06.785  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-09 00:02:06.854  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-09 00:02:06.918  INFO vengines-MacBook-Pro.local --- [         task-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-08-09 00:02:07.067  INFO vengines-MacBook-Pro.local --- [         task-1] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-08-09 00:02:07.079  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-09 00:02:07.460  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-09 00:02:07.465  INFO vengines-MacBook-Pro.local --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 00:02:07.507  INFO vengines-MacBook-Pro.local --- [         task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-09 00:02:07.525  WARN vengines-MacBook-Pro.local --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-09 00:02:07.676  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-09 00:02:07.712  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-09 00:02:07.713  INFO vengines-MacBook-Pro.local --- [  restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-09 00:02:07.830  INFO vengines-MacBook-Pro.local --- [  restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-09 00:02:07.836  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Started EasyNotesApplication in 2.2 seconds (JVM running for 3.06)
+2020-08-09 00:02:07.837 DEBUG vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Debugging log
+2020-08-09 00:02:07.837  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Info log
+2020-08-09 00:02:07.837  WARN vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Hey, This is a warning!
+2020-08-09 00:02:07.837 ERROR vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Oops! We have an Error. OK
+2020-08-09 00:02:07.837 FATAL vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Damn! Fatal error. Please fix me.
+2020-08-09 00:02:55.477  INFO vengines-MacBook-Pro.local --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 00:02:55.478  INFO vengines-MacBook-Pro.local --- [extShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-09 00:02:55.479  INFO vengines-MacBook-Pro.local --- [extShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-08-09 00:02:55.485  INFO vengines-MacBook-Pro.local --- [extShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-08-09 00:02:57.705  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Starting EasyNotesApplication on vengines-MacBook-Pro.local with PID 4063 (/Users/vengine/Documents/workspace/easy-notes/build/classes/java/main started by vengine in /Users/vengine/Documents/workspace/easy-notes)
+2020-08-09 00:02:57.710 DEBUG vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-09 00:02:57.711  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : No active profile set, falling back to default profiles: default
+2020-08-09 00:02:57.742  INFO vengines-MacBook-Pro.local --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-09 00:02:57.743  INFO vengines-MacBook-Pro.local --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-09 00:02:58.137  INFO vengines-MacBook-Pro.local --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-09 00:02:58.172  INFO vengines-MacBook-Pro.local --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 1 JPA repository interfaces.
+2020-08-09 00:02:58.510  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-08-09 00:02:58.516  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-09 00:02:58.517  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-08-09 00:02:58.517  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-09 00:02:58.577  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-08-09 00:02:58.577  INFO vengines-MacBook-Pro.local --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 834 ms
+2020-08-09 00:02:58.655  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-09 00:02:58.676  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-09 00:02:58.700  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-09 00:02:58.785  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-09 00:02:58.858  INFO vengines-MacBook-Pro.local --- [         task-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-08-09 00:02:59.048  INFO vengines-MacBook-Pro.local --- [         task-1] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-08-09 00:02:59.059  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-09 00:02:59.429  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-09 00:02:59.435  INFO vengines-MacBook-Pro.local --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 00:02:59.483  INFO vengines-MacBook-Pro.local --- [         task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-09 00:02:59.503  WARN vengines-MacBook-Pro.local --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-09 00:02:59.770  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-09 00:02:59.797  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-09 00:02:59.798  INFO vengines-MacBook-Pro.local --- [  restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-09 00:02:59.903  INFO vengines-MacBook-Pro.local --- [  restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-09 00:02:59.910  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Started EasyNotesApplication in 2.622 seconds (JVM running for 3.624)
+2020-08-09 00:02:59.911 DEBUG vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Debugging log
+2020-08-09 00:02:59.911  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Info log
+2020-08-09 00:02:59.911  WARN vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Hey, This is a warning!
+2020-08-09 00:02:59.911 ERROR vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Oops! We have an Error. OK
+2020-08-09 00:02:59.911 FATAL vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Damn! Fatal error. Please fix me.
+2020-08-09 00:05:01.032  INFO vengines-MacBook-Pro.local --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 00:05:01.034  INFO vengines-MacBook-Pro.local --- [extShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-09 00:05:01.037  INFO vengines-MacBook-Pro.local --- [extShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-08-09 00:05:01.047  INFO vengines-MacBook-Pro.local --- [extShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-08-09 00:05:03.255  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Starting EasyNotesApplication on vengines-MacBook-Pro.local with PID 4095 (/Users/vengine/Documents/workspace/easy-notes/build/classes/java/main started by vengine in /Users/vengine/Documents/workspace/easy-notes)
+2020-08-09 00:05:03.258 DEBUG vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-09 00:05:03.258  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : No active profile set, falling back to default profiles: default
+2020-08-09 00:05:03.282  INFO vengines-MacBook-Pro.local --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-09 00:05:03.283  INFO vengines-MacBook-Pro.local --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-09 00:05:03.708  INFO vengines-MacBook-Pro.local --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-09 00:05:03.738  INFO vengines-MacBook-Pro.local --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 1 JPA repository interfaces.
+2020-08-09 00:05:04.063  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-08-09 00:05:04.069  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-09 00:05:04.069  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-08-09 00:05:04.070  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-09 00:05:04.120  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-08-09 00:05:04.120  INFO vengines-MacBook-Pro.local --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 837 ms
+2020-08-09 00:05:04.205  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-09 00:05:04.225  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-09 00:05:04.247  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-09 00:05:04.322  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-09 00:05:04.404  INFO vengines-MacBook-Pro.local --- [         task-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-08-09 00:05:04.815  INFO vengines-MacBook-Pro.local --- [         task-1] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-08-09 00:05:04.825  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-09 00:05:05.175  INFO vengines-MacBook-Pro.local --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-09 00:05:05.181  INFO vengines-MacBook-Pro.local --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 00:05:05.232  WARN vengines-MacBook-Pro.local --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-09 00:05:05.373  INFO vengines-MacBook-Pro.local --- [         task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-09 00:05:05.433  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-09 00:05:05.463  INFO vengines-MacBook-Pro.local --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-09 00:05:05.464  INFO vengines-MacBook-Pro.local --- [  restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-09 00:05:05.562  INFO vengines-MacBook-Pro.local --- [  restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-09 00:05:05.568  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Started EasyNotesApplication in 2.605 seconds (JVM running for 3.662)
+2020-08-09 00:05:05.569 DEBUG vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Debugging log
+2020-08-09 00:05:05.569  INFO vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Info log
+2020-08-09 00:05:05.569  WARN vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Hey, This is a warning!
+2020-08-09 00:05:05.569 ERROR vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Oops! We have an Error. OK
+2020-08-09 00:05:05.569 FATAL vengines-MacBook-Pro.local --- [  restartedMain] c.y.e.EasyNotesApplication               : Damn! Fatal error. Please fix me.
+2020-08-09 00:10:26.180  INFO vengines-MacBook-Pro.local --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 00:10:26.182  INFO vengines-MacBook-Pro.local --- [extShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-09 00:10:26.183  INFO vengines-MacBook-Pro.local --- [extShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-08-09 00:10:26.189  INFO vengines-MacBook-Pro.local --- [extShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
